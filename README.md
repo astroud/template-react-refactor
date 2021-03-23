@@ -1,4 +1,62 @@
-# Getting Started with Create React App
+# template-react-refactor
+
+A react app template for rapidly refactoring HTML/CSS Frontend Mentor challenges
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and includes my favorite tools for rapidly reactoring a Frontend Mentor HTML/CSS Challenge to use React with Styled Components.
+
+Dependencies:
+
+- prop-types
+- styled components
+- eslint + airbnb styleguide
+
+## Getting Started
+
+**note:** Take care using the `rm` command. Once a file or directory is removed with `rm` it cannot be recovered. For that reason, I prefer [trash](https://github.com/sindresorhus/trash) which moves deleted files/folders to the Trash, making recovery possible.
+
+```bash
+git clone https://github.com/astroud/template-react-refactor.git
+cd template-react-refactor
+rm README.md
+rm -rf .git
+```
+
+You are now ready to start a new repo with `git init` or copy the files into an existing repository (don't forget to move _.eslintrc.js_ and _.gitignore_).
+
+After moving the template or initializing a new repo, install React and the dependencies:
+
+```bash
+npm install
+```
+
+You're now ready to go!
+
+If you need an introduction to [Styled Comments](http://styled-components.com), I recommend Josh Comeau's excellent [introduction](https://www.joshwcomeau.com/css/styled-components/) and [the official docs](https://styled-components.com/docs).
+
+To start the app:
+
+```bash
+npm start
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+## Useful Visual Studio Code Extensions
+
+- [vscode-styled-components by Julien Poissonnier](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) - Syntax highlighting for styled-components
+- [ESLint by Dirk Baeumer](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint JavaScript into VS Code.
+
+<hr />
+
+<summary>Expand for—<em>Getting Started with Create React App</em> details
+</summary>
+<details>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +126,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
