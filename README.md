@@ -12,20 +12,9 @@ Dependencies:
 
 ## Getting Started
 
-**note:** Take care using the `rm` command. Once a file or directory is removed with `rm` it cannot be recovered. For that reason, I prefer [trash](https://github.com/sindresorhus/trash) which moves deleted files/folders to the Trash, making recovery possible.
-
 ```bash
-git clone https://github.com/astroud/template-react-refactor.git
-cd template-react-refactor
-rm README.md
-rm -rf .git
-```
-
-You are now ready to start a new repo with `git init` or copy the files into an existing repository (don't forget to move _.eslintrc.js_ and _.gitignore_).
-
-After moving the template or initializing a new repo, install React and the dependencies:
-
-```bash
+npx tiged https://github.com/astroud/template-react-refactor.git my-new-project
+cd my-new-project
 npm install
 ```
 
